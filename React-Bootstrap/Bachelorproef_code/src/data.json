@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "title": "Brussels",
+      "image": "images/brussels.jpg",
+      "description": "A wonderful visit to the capital of Belgium. Eat a great Belgian waffle after visiting the palace of Laken or the Atomium.",
+      "imagelink": "https://www.pexels.com/nl-nl/foto/atomium-brussel-1595085/",
+      "price": "80"
+    },
+    {
+        "id": 2,
+        "title": "London",
+        "image": "images/london.jpg",
+        "description": "A city trip to the beautiful city of London, where you can visit various monuments such as Buckingham Palace, Tower Bridge and Westminster Abbey. Relax with the fantastic view from the London Eye",
+        "imagelink": "https://www.pexels.com/nl-nl/foto/cityscape-van-londen-460672/",
+        "price": "187"
+      },
+      {
+        "id": 3,
+        "title": "Paris",
+        "image": "/images/paris.jpg",
+        "description": "When visiting the city of love, the Eiffel Tower and the Notre Dame are a must. You should also visit several museums, such as the Louvre, and relax in a cosy French restaurant. ",
+        "imagelink": "https://www.pexels.com/nl-nl/foto/eiffeltoren-achter-gebouwen-1850619/",
+        "price": "213"
+      },
+      {
+        "id": 4,
+        "title": "Rome",
+        "image": "/images/rome.jpg",
+        "description": "If you're looking for a trip to a warmer destination, take this wonderful trip that takes you to places like the Colloseum, Pantheon and Forum Romanum. Afterwards, enjoy a delicious Italian pasta or pizza.",
+        "imagelink": "https://www.pexels.com/nl-nl/foto/colosseum-italie-1797161/",
+        "price": "135"
+      }
+  ]

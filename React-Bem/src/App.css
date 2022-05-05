@@ -1,0 +1,156 @@
+/* Base */
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul, 
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+text-decoration: none;
+}
+
+
+p{
+  margin: 0;
+}
+
+/* Container */
+.Container {
+  padding: 25px 150px;
+}
+
+.List{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+/* navigation */
+.Navigation {
+padding: 10px 150px;
+background: #212529;
+}
+
+.Navigation__item {
+display: inline-block;
+padding: 0 5px;
+font-size: 1.2em;
+color: #9B9D9E;
+}
+
+.Navigation__item--home {
+  color: white;
+  font-size: 1.5em;
+}
+
+.Navigation__item:hover {
+  color: white;
+}
+
+/* card */
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: 2px solid #DFDFDF;
+  padding-bottom: 10px;
+}
+
+.Card__image {
+  display: block;
+  width: 300px;
+  margin: 0 0 10px 0;
+}
+
+.Card__body {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Card__title{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.Card__city{
+  padding: 5px 0;
+  font-size: 1.5em;
+}
+
+.Card__badge {
+  font-weight: bold;
+  margin: auto 5px;
+  padding: 1px 5px;
+  font-size: 1em;
+  color: white;
+  background-color: #6C757D;
+  border-radius: 5px;
+  border: 2px solid #6C757D;
+}
+
+.Card__description {
+  padding: 5px;
+  text-align: justify;
+  color: #6C757D;
+}
+
+/* Button */
+
+.Button{
+  display: block;
+  margin: 5px 0;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  transition: 1s ease all;
+}
+
+.Button:hover{
+  cursor: pointer;
+}
+
+.Button--green{
+    color: white;
+    background-color: #198754;
+}
+
+/* Toast */
+
+
+.Toast{
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  z-index: 10;
+  border-radius: 5px;
+  border: 1px solid #6C757D;
+}
+.Toast__header{
+  padding: 5px;
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: space-between; /* switched from default (flex-start, see below) */
+  color:#6C757D;
+  border-bottom: 1px solid #6C757D;
+}
+
+.Toast__body{
+  padding: 5px;
+
+}

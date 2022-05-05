@@ -5,7 +5,7 @@ export function ConfirmToast({ toggle }) {
   return (
     <Toast onClose={() => toggle(false)}>
         <Toast.Header closeButton={false}>
-            <strong className="me-auto">What a wonderfull world!</strong>
+            <strong className="me-auto">Come fly with me!</strong>
             <small>Just now!</small>
         </Toast.Header>
         <Toast.Body>

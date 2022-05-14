@@ -11,7 +11,7 @@ export function CityCard({data, setChosen}){
                 </div>
 
                 <p class="Card__description">{data.description}</p>
-                <button onClick={() => setChosen()} class="Button Button--green">
+                <button onClick={() => setChosen()} class="Button Button--color-green">
                     <span>Take this city!</span>
                 </button>
             </div>
